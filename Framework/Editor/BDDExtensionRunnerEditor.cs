@@ -61,10 +61,11 @@ namespace HudDimension.BDDExtensionForUnityTestTools
         /// </summary>
         private bool dirtyStatus = false;
 
+        public string pippo = "pippo";
         /// <summary>
         /// Creates the menu for creating a new BDD test.
         /// </summary>
-        [MenuItem("Unity Test Tools/BDD Extension Framework/Create BDD Test")]
+        [MenuItem("Integration Test/Create BDD Test")]
         public static void CreateNewBDDTest()
         {
             GameObject test = TestComponent.CreateTest();
